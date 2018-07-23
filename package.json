@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "gulp",
+    "cover": "istanbul cover --report lcov _mocha -- -R spec ./test/*.js",
+    "test": "mocha ./test/index.js",
+    "watch": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/BeisenUX/upgrade-talentJS#readme",
   "devDependencies": {
-    "babel-core": "^6.26.3",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-env": "^1.7.0",
     "coveralls": "^3.0.2",
@@ -32,5 +31,10 @@
     "istanbul": "^0.4.5",
     "json-server": "^0.14.0",
     "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "acorn": "^5.7.1",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3"
   }
 }
