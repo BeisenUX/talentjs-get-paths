@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "gulp",
-    "cover": "istanbul cover --report lcov _mocha -- -R spec ./test/*.js",
+    "cover": "istanbul cover --report lcov _mocha -- -R spec ./test/index.js",
     "test": "mocha ./test/index.js",
     "watch": "gulp watch"
   },
