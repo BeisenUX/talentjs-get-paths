@@ -1,7 +1,7 @@
 {
   "name": "@beisen/upgrade-talentjs",
   "version": "0.0.1",
-  "description": " ",
+  "description": "实现TalentJS升级到TalentUI的本地工具模块",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "gulp",
