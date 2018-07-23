@@ -16,9 +16,6 @@ coverage
 .jshintrc
 .eslintrc*
 
-.babelrc
-gulpfile.js
-
 # editor settings
 .idea
 .editorconfig
