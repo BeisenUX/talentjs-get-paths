@@ -1,6 +1,6 @@
 {
-  "name": "@beisen/upgrade-talentjs",
-  "version": "0.0.2",
+  "name": "@beisen/talentjs-get-paths",
+  "version": "0.0.1",
   "description": "实现TalentJS升级到TalentUI的本地工具模块",
   "main": "lib/index.js",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BeisenUX/upgrade-talentJS.git"
+    "url": "git+https://github.com/BeisenUX/talentjs-get-paths.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BeisenUX/upgrade-talentJS/issues"
+    "url": "https://github.com/BeisenUX/talentjs-get-paths/issues"
   },
-  "homepage": "https://github.com/BeisenUX/upgrade-talentJS#readme",
+  "homepage": "https://github.com/BeisenUX/talentjs-get-paths#readme",
   "devDependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-env": "^1.7.0",
