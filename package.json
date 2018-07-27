@@ -1,6 +1,6 @@
 {
   "name": "@beisen/talentjs-get-paths",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "实现TalentJS升级到TalentUI的本地工具模块",
   "main": "lib/index.js",
   "scripts": {
