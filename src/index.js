@@ -19,7 +19,7 @@ export default async (content) => {
           }
         },
         MemberExpression (node) {
-          if(node.object && node.object.name === 'jst') {
+          if(node.object && (node.object.name === 'jst' || node.object.name === 'JST')) {
             templatePaths.push(node.property.value)
           }
         }
